@@ -142,6 +142,8 @@ pub mod commands {
     pub const RDCTRLD1: u8 = 0x54; // Read CTRL Display 1
 }
 
+pub const DMA_CHUNK_SIZE: usize = 16380;
+
 /// Color modes supported by the SH8601 display controller.
 pub enum ColorMode {
     /// 16-bit RGB565 format
